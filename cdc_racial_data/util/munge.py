@@ -59,6 +59,16 @@ state_abbrevs = {
 
 state_full_names = dict([(value, key) for key, value in state_abbrevs.items()])
 
+cdc_races = {
+    'Non-Hispanic White':'white', 
+    'Non-Hispanic Black':'black',
+    'Non-Hispanic American Indian or Alaska Native':'AIAN',
+    'Non-Hispanic Asian':'asian',
+    'Non-Hispanic Native Hawaiian or Other Pacific Islander':'NHPI',
+    'Non-Hispanic More than one race':'multiracial', 
+    'Hispanic or Latino':'latinx', 
+    'Unknown':'unknown'}
+
 palette = {
     "pink":"#DB3069",
     "grey":"#313638",
