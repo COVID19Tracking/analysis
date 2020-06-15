@@ -69,13 +69,29 @@ cdc_races = {
     'Hispanic or Latino':'latinx', 
     'Unknown':'unknown'}
 
+crdt_to_cdc_races = {
+    'deaths_white':'white', 
+    'deaths_black':'black',
+    'deaths_aian':'AIAN',
+    'deaths_asian':'asian',
+    'deaths_nhpi':'NHPI',
+    'deaths_multiracial':'multiracial', 
+    'deaths_latinx':'latinx', 
+    'deaths_unknown':'unknown',
+    'deaths_hispanic':'hispanic',
+    'deaths_nonhispanic':'nonhispanic',
+    'deaths_other':'other'}
+
 palette = {
     "pink":"#DB3069",
     "grey":"#313638",
+    "lightgrey":"#d3d3d3",
     "gold":"#F5D547",
     "aqua":"#C1FFE8",
     "royal":"#1446A0",
-    "fox":"#F06543"
+    "fox":"#F06543",
+    "red":"#FC3903",
+    "green":"#7AE667"
 }
 
 def max_print(df):
